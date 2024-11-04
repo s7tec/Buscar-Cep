@@ -62,6 +62,6 @@ Este projeto está licenciado sob a MIT License. Veja o arquivo [LICENSE](LICENS
 
 ## Contato
 
-Bruno Lima - [bruno1638lima@hotmail.com](bruno1638lima@hotmail.com)
+Bruno Lima - bruno1638lima@hotmail.com
 
 Link para o repositório: [hhttps://github.com/s7tec/Buscar-Cep.git](https://github.com/s7tec/Buscar-Cep.git)
