@@ -7,7 +7,8 @@ html {
 }
 
 body {
-    margin: 9rem;
+    margin-top: 5%;
+    margin-left: 15%;
     padding: 2rem;
     background: linear-gradient(to right, rgb(54, 54, 54), rgb(0, 0, 0));
     display: flex;
@@ -16,8 +17,8 @@ body {
 .left {
     padding: 1rem;
     margin: 2rem 0 2rem 5rem;
-    border-top: 5px solid black;     
-    border-left: 5px solid black;    
+    border-top: 5px solid black;
+    border-left: 5px solid black;
     border-bottom: 5px solid black;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -37,7 +38,7 @@ body {
 .container input {
     background-color: #f0e1e1;
     margin-top: 10px;
-    width: 50%;
+    width: 60%;
     height: 2rem;
     border: 2px solid black;
     border-radius: 5px;
@@ -55,11 +56,12 @@ body {
     border-radius: 10px;
     text-transform: uppercase;
     font-weight: bold;
-    cursor: pointer;          
+    cursor: pointer;
     transition: 0.3s ease;
 }
+
 .container button:hover {
-    background-color: #b9c1db; 
+    background-color: #b9c1db;
     color: black;
 }
 
@@ -84,14 +86,14 @@ body {
 
 }
 
-.right{
-    border-top: 5px solid black;     
-    border-right: 5px solid black;    
+.right {
+    border-top: 5px solid black;
+    border-right: 5px solid black;
     border-bottom: 5px solid black;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     margin: 2rem 2rem 2rem 0;
-    width: 30rem;   
+    width: 30rem;
 }
 
 .right img {
@@ -106,4 +108,284 @@ body {
 
 }
 
+/* Telas grandes */
+@media (max-width: 2550px) {
+    body {
+        margin-left: 20%;
+    }
+}
 
+@media (max-width: 1750px) {
+    body {
+        margin-left: 9%;
+    }
+}
+
+@media (max-width: 1550px) {
+    body {
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 1350px) {
+    body {
+        margin-top: 2%;
+        margin-left: 1%;
+    }
+}
+
+@media (max-width: 1200px) {
+    body {
+        margin-top: 1%;
+        margin-left: 1%;
+    }
+
+    .left {
+        width: 450px;
+    }
+
+    .left h1 {
+        font-size: 20px;
+    }
+
+    .right {
+        width: 350px;
+    }
+}
+
+@media (max-width: 1100px) {
+    body {
+        margin-top: 0;
+        margin-left: 10%;
+    }
+
+    .left {
+        height: 650px;
+        width: 350px;
+    }
+
+    .left h1 {
+        font-size: 15px;
+    }
+
+    .right {
+        width: 280px;
+    }
+
+    .containerResult {
+        height: 450px;
+        padding: 0;
+        margin: 0 15px;
+    }
+
+    .container input {
+        width: 50%;
+        height: 2rem;
+
+
+    }
+
+    .container button {
+        width: 4rem;
+        height: 37.3px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 850px) {
+    body {
+        margin-top: 0;
+        margin-right: 20%;
+    }
+
+    .left {
+        height: 450px;
+    }
+
+    .left h1 {
+        padding: 0;
+        margin: 0;
+        font-size: 12px;
+    }
+
+    .right {
+        width: 250px;
+    }
+
+    .container {
+        padding: 0;
+        margin-bottom: 10px;
+    }
+
+    .containerResult {
+        height: 340px;
+        padding: 0;
+        margin: 0px;
+    }
+
+    .containerResult h4 {
+        font-size: 13px;
+        margin: 5px;
+    }
+
+    .containerResult p {
+        padding: 4px;
+        font-size: 11px;
+        border: 2px solid rgba(66, 66, 66, 0.205);
+    }
+
+    .container input {
+        width: 50%;
+        height: 1rem;
+        font-size: 9px;
+
+
+    }
+
+    .container button {
+        width: 3rem;
+        height: 22.3px;
+        font-size: 9px;
+        border-radius: 5px;
+    }
+
+
+}
+
+@media (max-width: 650px) {
+    body {
+        margin-top: 0;
+        margin-right: 20%;
+    }
+
+    .left {
+        height: 450px;
+    }
+
+    .left h1 {
+        padding: 0;
+        margin: 0;
+        font-size: 10px;
+    }
+
+    .right {
+        width: 250px;
+    }
+
+    .container {
+        padding: 0;
+        margin-bottom: 10px;
+    }
+
+    .containerResult {
+        height: 340px;
+        padding: 10px;
+        margin: 0px;
+    }
+
+    .containerResult h4 {
+        font-size: 10px;
+        margin: 5px;
+    }
+
+    .containerResult p {
+        padding: 3px;
+        font-size: 11px;
+        border: 2px solid rgba(66, 66, 66, 0.205);
+    }
+
+    .container input {
+        width: 50%;
+        height: 0.7rem;
+        font-size: 9px;
+
+
+    }
+
+    .container button {
+        width: 2rem;
+        height: 19.3px;
+        font-size: 5.5px;
+        border-radius: 5px;
+    }
+
+
+}
+
+@media (max-width: 520px) {
+    body {
+        margin:0;
+        margin-right: 5rem;
+        padding: 0;
+       
+
+    }
+
+    .left {
+        height: 450px;
+        width: 8950px;
+        border: 5px solid black;
+        border-radius: 20px;
+    }
+
+    .left h1 {
+        padding: 0;
+        margin: 0;
+        font-size: 10px;
+    }
+
+    .container {
+        padding: 1rem;
+        margin-bottom: 10px;
+    }
+
+    .containerResult {
+        height: 340px;
+        padding: 10px;
+        margin: 0px;
+    }
+
+    .containerResult h4 {
+        font-size: 10px;
+        margin: 5px;
+    }
+
+    .containerResult p {
+        padding: 3px;
+        font-size: 9px;
+        border: 2px solid rgba(66, 66, 66, 0.205);
+    }
+
+    .container input {
+        width: 50%;
+        height: 1rem;
+        font-size: 9px;
+        padding: 0;
+        margin: 0;
+
+
+    }
+
+    .container button {
+        width: 2.5rem;
+        height: 19.3px;
+        font-size: 5.5px;
+        border-radius: 5px;
+    }
+
+    .right {
+        width: 0px;
+        border: none;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .right img {
+        width: 0%;
+        height: 0%;
+
+
+    }
+
+}
